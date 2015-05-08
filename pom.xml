@@ -11,6 +11,8 @@
 	</properties>
 
 	<dependencies>
+	
+	
 	<!--
     Core utilities used by other modules.
     Define this if you use Spring Utility APIs (org.springframework.core.*/org.springframework.util.*)
@@ -155,7 +157,17 @@
   <version>${org.springframework.version}</version>
   <scope>test</scope>
 </dependency>
-	
+
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-core</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+			<version>3.0.5</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
